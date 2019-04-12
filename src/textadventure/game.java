@@ -19,16 +19,16 @@ public class game {
 		String answer = sc.nextLine();
 		
 		
-			if (answer .equalsIgnoreCase("Ja")) {
+			if	(answer .equalsIgnoreCase("Ja")) {
 				System.out.println("SpielStart"); 
 				widerholung = true;
 	    
 	  
-			}if (answer .equalsIgnoreCase("Nein")) {
+			}if	(answer .equalsIgnoreCase("Nein")) {
 				System.out.println("Dann Schließt sich das spiel"); 
 				System.exit(0);
 			 
-			}  if	 (!answer .equalsIgnoreCase("Ja")){
+			}if	(!answer .equalsIgnoreCase("Ja")){
 				System.out.println("Die Antwort wir Verweigert");
 				System.out.println("Möchtest du Das Spiel Starten Ja/Nein");
 					}
