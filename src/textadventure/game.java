@@ -28,7 +28,7 @@ public class game {
 				System.out.println("Dann Schließt sich das spiel"); 
 				System.exit(0);
 			 
-			} else if (answer .equalsIgnoreCase("Ja")){
+			}  if	 (!answer .equalsIgnoreCase("Ja")){
 				System.out.println("Die Antwort wir Verweigert");
 				System.out.println("Möchtest du Das Spiel Starten Ja/Nein");
 					}
