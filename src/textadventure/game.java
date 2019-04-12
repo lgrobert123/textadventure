@@ -14,6 +14,10 @@ public class game {
 		
 		String answer = sc.nextLine();
 		
+		while(widerholung == false){
+			
+			
+		}
 		if (answer .equalsIgnoreCase("Ja")) {
 	    	System.out.println("SpielStart"); 
 	    	widerholung = true;
@@ -27,12 +31,11 @@ public class game {
 			System.out.println("Die Antwort wir Verweigert");
 			while(widerholung == false);
 		}
-	    	
+	}
 	/*
 		System.out.print("Setze dein Characternamen :"); 
 		String name = sc.nextLine().replaceAll(" ","");
 		System.out.println(name);
 */	}
-	}
-
+	
 
