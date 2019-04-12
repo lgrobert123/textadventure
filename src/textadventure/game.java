@@ -19,26 +19,25 @@ public class game {
 		String answer = sc.nextLine();
 		
 		
-		if (answer .equalsIgnoreCase("Ja")) {
-	    	System.out.println("SpielStart"); 
-	    	widerholung = true;
+			if (answer .equalsIgnoreCase("Ja")) {
+				System.out.println("SpielStart"); 
+				widerholung = true;
 	    
 	  
-		}if (answer .equalsIgnoreCase("Nein")) {
-			System.out.println("Dann Schließt sich das spiel"); 
-			System.exit(0);
+			}if (answer .equalsIgnoreCase("Nein")) {
+				System.out.println("Dann Schließt sich das spiel"); 
+				System.exit(0);
 			 
-		}else if(answer .equalsIgnoreCase("asdasdasd")){
-			System.out.println("Die Antwort wir Verweigert");
-			System.out.println("Möchtest du Das Spiel Starten Ja/Nein");
-			
-		}
-		}
-	}
+			} else if (answer .equalsIgnoreCase("Ja")){
+				System.out.println("Die Antwort wir Verweigert");
+				System.out.println("Möchtest du Das Spiel Starten Ja/Nein");
+					}
+				}
+			}
 	/*
 		System.out.print("Setze dein Characternamen :"); 
 		String name = sc.nextLine().replaceAll(" ","");
 		System.out.println(name);
-*/	}
+*/		}
 	
 
