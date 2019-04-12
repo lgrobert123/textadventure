@@ -25,8 +25,8 @@ public class game {
 			
 		}else {
 			System.out.println("Die Antwort wir Verweigert");
-			while(widerholung = false);
-		
+			while(widerholung == false);
+		}
 	    	
 	/*
 		System.out.print("Setze dein Characternamen :"); 
@@ -34,5 +34,5 @@ public class game {
 		System.out.println(name);
 */	}
 	}
-}
+
 
