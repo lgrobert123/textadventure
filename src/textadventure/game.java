@@ -29,7 +29,7 @@ public class game {
 			
 		}else {
 			System.out.println("Die Antwort wir Verweigert");
-			while(widerholung == false);
+			
 		}
 	}
 	/*
