@@ -14,8 +14,8 @@ public class game {
 	    if (sc.nextLine() .equalsIgnoreCase("Ja")) {
 	    	System.out.println("SpielStart"); 
 	    
-	    }else {
-		}if (sc.nextLine() .equalsIgnoreCase("Nein"))
+	  
+		}if (sc.nextLine() .equalsIgnoreCase("Nein")) {
 			System.out.println("Dann Schlieﬂt sich das spiel"); 
 			System.exit(0);
 	
@@ -27,5 +27,5 @@ public class game {
 		System.out.println(name);
 */	}
 	}
-
+}
 
