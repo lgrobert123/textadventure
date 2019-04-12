@@ -10,14 +10,15 @@ public class game {
 		
 		boolean widerholung = false;
 		
+		
+		
 		System.out.println("Möchtest du Das Spiel Starten Ja/Nein");
-		
-		String answer = sc.nextLine();
-		
+
 		while(widerholung == false){
 			
-			
-		}
+		String answer = sc.nextLine();
+		
+		
 		if (answer .equalsIgnoreCase("Ja")) {
 	    	System.out.println("SpielStart"); 
 	    	widerholung = true;
@@ -26,10 +27,12 @@ public class game {
 		}if (answer .equalsIgnoreCase("Nein")) {
 			System.out.println("Dann Schließt sich das spiel"); 
 			System.exit(0);
-			
-		}else {
+			 
+		}else if(answer .equalsIgnoreCase("asdasdasd")){
 			System.out.println("Die Antwort wir Verweigert");
+			System.out.println("Möchtest du Das Spiel Starten Ja/Nein");
 			
+		}
 		}
 	}
 	/*
